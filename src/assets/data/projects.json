@@ -1,0 +1,10 @@
+{
+    "projects": [
+        {
+            "name": "Incorpedia",
+            "tech": "React",
+            "link": "https://corp-incorpedia.firebaseapp.com",
+            "img": ""
+        }
+    ]
+}

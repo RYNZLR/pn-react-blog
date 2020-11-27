@@ -6,11 +6,13 @@ import '../../assets/css/TechList.css';
 export default  function TechList(){
 
 
+
+
     return(
 
             <ul className="tech-list">
                 {displayData.technologies.map(t => {
-                    return <li key={t.name} style={{ borderColor: t.color }}>
+                    return <li key={t.name}>
                         {t.name}
                     </li>
                 })}
