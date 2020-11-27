@@ -10,6 +10,9 @@ html, body, #root {
   position: relative;
   scroll-behavior: smooth;
 }
+html .react-rotating-text-cursor, body .react-rotating-text-cursor, #root .react-rotating-text-cursor {
+  display: none;
+}
 html a, body a, #root a {
   text-decoration: none;
 }

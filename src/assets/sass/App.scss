@@ -9,6 +9,10 @@ html,body, #root{
     font-size: 1rem;
     position: relative;
     scroll-behavior: smooth;
+
+    .react-rotating-text-cursor {
+        display: none;
+      }
     
 
     a{
