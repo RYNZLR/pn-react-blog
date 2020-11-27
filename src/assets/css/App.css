@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "bah";
+  src: url(../fonts/Bahnschrift.ttf) format("truetype");
+}
+body, #root {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #101010;
+  font-size: 1rem;
+  position: relative;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+body a, #root a {
+  text-decoration: none;
+}
+body h1, #root h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "bah", Arial, Helvetica, sans-serif;
+  color: #14C7FF;
+  margin-bottom: 1.5rem;
+}
+body h2, #root h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "bah", Arial, Helvetica, sans-serif;
+  color: #A2A2A2;
+  margin-bottom: 1.5rem;
+}
+body p, #root p {
+  margin-bottom: 0.5rem;
+}
+body section, body div.text, #root section, #root div.text {
+  margin-bottom: 2rem;
+}
+body main, #root main {
+  max-width: 65rem;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+/*# sourceMappingURL=App.css.map */

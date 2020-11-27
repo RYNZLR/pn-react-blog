@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "bah";
+  src: url(../fonts/Bahnschrift.ttf) format("truetype");
+}
+header.large {
+  height: 110vh;
+  background-image: linear-gradient(to bottom, transparent, #101010), url("../images/header.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.large .tech {
+  box-sizing: border-box;
+  padding: 20vh 2rem;
+  height: 50%;
+  width: 70rem;
+  margin: 0 auto;
+}
+header.large .tech p {
+  font-family: "bah", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+header.large .tech em {
+  display: block;
+  text-transform: uppercase;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=header.css.map */

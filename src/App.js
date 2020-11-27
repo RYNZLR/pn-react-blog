@@ -9,6 +9,9 @@ import Header from './components/partials/Header';
 import Footer from './components/partials/Footer';
 import Routes from './router/AppRouter';
 
+import './assets/css/reset.css';
+import './assets/css/App.css';
+
 function App() {
   return (
       <Router>

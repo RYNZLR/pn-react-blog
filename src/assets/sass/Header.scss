@@ -1,0 +1,40 @@
+@use 'colors';
+@use 'fonts';
+@use 'text';
+
+header{
+
+    &.large{
+        height: 110vh;
+        background-image: linear-gradient(
+            to bottom, transparent, colors.$bg
+          ),url('../images/header.jpg');
+        background-size: cover;
+        background-position: bottom;
+
+        .tech{
+            box-sizing: border-box;
+            padding: 20vh 2rem;
+            height: 50%;
+            width: 70rem;
+            margin: 0 auto;
+
+            p{
+                font-family: fonts.$title;
+                font-size: 4rem;
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+            }
+            em{
+                display: block;
+                text-transform: uppercase;
+                font-size: 6rem;
+                letter-spacing: 0.3rem;
+                font-weight: bold;
+            }
+        }
+
+        
+    }
+}

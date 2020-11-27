@@ -1,0 +1,28 @@
+@use 'colors';
+@use 'fonts';
+@use 'text';
+
+nav{
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: text.$margin-lg;
+
+        li{
+            margin-top: 1rem;
+            margin-right: 5rem;
+
+            a{
+                color: colors.$text-dark;
+                font-family: fonts.$title;
+                display: inline-block;
+                padding: 1rem 2rem;
+
+                &:hover{
+                    background-color: rgba(56, 56, 56, 0.562);
+                    color: white;
+                }
+            }
+        }
+    }
+}

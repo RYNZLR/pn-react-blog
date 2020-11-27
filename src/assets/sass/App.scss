@@ -1,0 +1,53 @@
+@use 'colors';
+@use 'fonts';
+@use 'text';
+
+body, #root{
+    font-family: fonts.$general;
+    color: colors.$text;
+    background-color: colors.$bg;
+    font-size: 1rem;
+    position: relative;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: fonts.$title;
+        color: colors.$accent;
+        margin-bottom: text.$margin-st;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: fonts.$title;
+        color: colors.$text-dark;
+        margin-bottom: text.$margin-st;
+    }
+
+    p{
+        margin-bottom: text.$margin-sm;
+    }
+
+    section, div.text{
+        margin-bottom: text.$margin-lg;
+    }
+
+    
+
+    main{
+
+        max-width: 65rem;
+        padding: 0.5rem 1rem;
+        margin: 0 auto;
+        min-height: 60vh;
+    }
+
+
+}

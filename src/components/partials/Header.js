@@ -1,9 +1,11 @@
 import Navigation from './Navigation'
 import React from 'react';
 
-import Technologies from '../display/Technologies'
+import Technologies from '../display/Technologies';
 
-import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
+
+import '../../assets/css/Header.css';
 
 export default function Header(){
 

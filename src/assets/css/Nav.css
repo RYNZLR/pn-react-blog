@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "bah";
+  src: url(../fonts/Bahnschrift.ttf) format("truetype");
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+nav ul li {
+  margin-top: 1rem;
+  margin-right: 5rem;
+}
+nav ul li a {
+  color: #A2A2A2;
+  font-family: "bah", Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+nav ul li a:hover {
+  background-color: rgba(56, 56, 56, 0.562);
+  color: white;
+}
+
+/*# sourceMappingURL=nav.css.map */

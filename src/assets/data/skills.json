@@ -1,0 +1,65 @@
+{
+    "technologies": [
+        {
+            "name": "React",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "Laravel",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "Java",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "HTML5",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "SASS",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "JavaScript",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "MySQL",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "SQL",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "Python",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "ASP .NET",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "SASS",
+            "color": "#14C7FF"
+        },
+
+        {
+            "name": "GraphQL",
+            "color": "#14C7FF"
+        }
+    ],
+
+    "about-me": "<p>I'm an enthusiastic student, who is currently studying Software Engineering at Howest. I am open to exploring new technologies and don't shy away of innovation.</p><p>During my studies I became acquainted with different programming languages, frameworks, server management systems, ... This gives me a strong foundation in some popular technologies. I also take the initiative to expand my knowledge and often do this by means of a hands-on approach.</p>"
+}
