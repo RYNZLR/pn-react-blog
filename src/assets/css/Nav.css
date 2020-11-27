@@ -16,10 +16,11 @@ nav ul li a {
   font-family: "bah", Arial, Helvetica, sans-serif;
   display: inline-block;
   padding: 1rem 2rem;
+  border-radius: 0.2rem;
 }
 nav ul li a:hover {
   background-color: rgba(56, 56, 56, 0.562);
   color: white;
 }
 
-/*# sourceMappingURL=nav.css.map */
+/*# sourceMappingURL=Nav.css.map */

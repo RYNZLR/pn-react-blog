@@ -1,5 +1,5 @@
 import Navigation from './Navigation'
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Technologies from '../display/Technologies';
 
@@ -10,7 +10,8 @@ import '../../assets/css/Header.css';
 export default function Header(){
 
     const location = useLocation().pathname;
-    const sizeName = location === "/" ? "large" : "small"
+    const sizeName = location === "/" ? "large" : "small";
+
 
     return(
         <header className={sizeName}>

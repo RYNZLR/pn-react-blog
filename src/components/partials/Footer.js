@@ -12,7 +12,7 @@ export default function Footer(){
 
         <footer>
             <Logo/>
-            <p className="code">Made with react</p>
+            <p>Made with react</p>
         </footer>
 
 

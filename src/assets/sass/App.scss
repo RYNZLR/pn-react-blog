@@ -2,14 +2,14 @@
 @use 'fonts';
 @use 'text';
 
-body, #root{
+html,body, #root{
     font-family: fonts.$general;
     color: colors.$text;
     background-color: colors.$bg;
     font-size: 1rem;
     position: relative;
-    min-height: 100vh;
     scroll-behavior: smooth;
+    
 
     a{
         text-decoration: none;
@@ -20,7 +20,8 @@ body, #root{
         font-weight: bold;
         font-family: fonts.$title;
         color: colors.$accent;
-        margin-bottom: text.$margin-st;
+        margin: text.$margin-st 0;
+        
     }
 
     h2{
@@ -68,11 +69,10 @@ body, #root{
     
 
     main{
-
         max-width: 60rem;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem;;
         margin: 0 auto;
-        min-height: 60vh;
+        min-height: 70vh;
     }
 
 

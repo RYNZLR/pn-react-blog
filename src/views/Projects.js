@@ -3,7 +3,7 @@ export default  function Projects(){
 
     return(
         <main>
-            Projects
+            <h1>Projects</h1>
         </main>
     )
 

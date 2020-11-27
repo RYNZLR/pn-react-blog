@@ -1,0 +1,49 @@
+.posts article {
+  min-height: 100vh;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  background-color: #141414;
+  border-radius: 0.3rem;
+}
+.posts article h2 {
+  color: white !important;
+}
+.posts article h2 a {
+  color: #14C7FF;
+  padding-right: 1rem;
+}
+.posts article .content {
+  line-height: 1.2rem;
+  margin-bottom: 2rem;
+}
+.posts article .content .quote {
+  padding: 1rem;
+  padding-left: 2rem;
+  margin: 2rem !important;
+  font-style: italic;
+  border-left: #14C7FF 0.3rem solid;
+}
+.posts article .content .code {
+  padding: 1rem 2rem;
+  margin: 1.5rem 0 !important;
+  border-radius: 0.3rem;
+  border: 0.2rem solid #2A2A2A;
+}
+.posts article .content a {
+  text-decoration: underline !important;
+  color: #14C7FF;
+}
+.posts article .content h3 {
+  color: #14C7FF;
+  margin-top: 2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.posts article em {
+  font-weight: bold;
+  color: #A2A2A2;
+}
+
+/*# sourceMappingURL=blogposts.css.map */

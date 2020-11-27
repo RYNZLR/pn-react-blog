@@ -1,0 +1,61 @@
+@use 'colors';
+
+.posts{
+
+    article{
+
+        min-height: 100vh;
+        margin-bottom: 3rem;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        background-color: colors.$post-bg;
+        border-radius: 0.3rem;
+
+        h2{
+            color: white !important;
+
+           a {
+                color: colors.$accent;
+                padding-right: 1rem;
+            }
+        }
+
+        .content{
+            line-height: 1.2rem;
+            margin-bottom: 2rem;
+
+            .quote{
+                padding: 1rem;
+                padding-left: 2rem;
+                margin: 2rem !important;
+                font-style: italic;
+                border-left: colors.$accent 0.3rem solid;
+            }
+
+            .code {
+                padding: 1rem 2rem;
+                margin: 1.5rem 0 !important;
+                border-radius: 0.3rem;
+                border: 0.2rem  solid colors.$bg-light;
+            }
+
+            a{
+                text-decoration: underline !important;
+                color: colors.$accent
+            }
+
+            h3{
+                color: colors.$accent;
+                margin-top: 2rem;
+                font-weight: bold;
+                padding-bottom: 1rem;
+                font-size: 1.2rem;
+            }
+        }
+
+        em{
+            font-weight: bold;
+            color: colors.$text-dark
+        }
+    }
+}

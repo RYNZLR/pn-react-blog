@@ -10,7 +10,7 @@ export default  function TechList(){
 
             <ul className="tech-list">
                 {displayData.technologies.map(t => {
-                    return <li style={{ borderColor: t.color }}>
+                    return <li key={t.name} style={{ borderColor: t.color }}>
                         {t.name}
                     </li>
                 })}
