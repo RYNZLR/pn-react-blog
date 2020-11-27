@@ -1,0 +1,51 @@
+@use 'colors';
+
+.project-list{
+    li{
+        width: 25rem;
+
+        a{
+            color: white;
+            display: block;
+            width: 25rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            background-color: colors.$post-bg;
+
+            img{
+                width: 25rem;
+                height: 13rem;
+                object-fit: cover;
+                border-radius: 0.5rem 0.5rem 0 0;
+
+
+            }
+
+            div{
+                display: flex;
+
+                p {
+                    padding: 1rem;
+                    font-weight: bold;
+                    margin: 0 !important;
+
+
+                    &:first-of-type{
+                        width: 70%;
+                        
+                    }
+
+                    &:last-of-type{
+                        text-align: center;
+                        background-color: colors.$accent;
+                        width: 30%;
+                        border-radius: 0 0 .5rem 0;
+                        color: colors.$bg
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

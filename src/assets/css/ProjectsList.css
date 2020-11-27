@@ -1,0 +1,37 @@
+.project-list li {
+  width: 25rem;
+}
+.project-list li a {
+  color: white;
+  display: block;
+  width: 25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #141414;
+}
+.project-list li a img {
+  width: 25rem;
+  height: 13rem;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.project-list li a div {
+  display: flex;
+}
+.project-list li a div p {
+  padding: 1rem;
+  font-weight: bold;
+  margin: 0 !important;
+}
+.project-list li a div p:first-of-type {
+  width: 70%;
+}
+.project-list li a div p:last-of-type {
+  text-align: center;
+  background-color: #14C7FF;
+  width: 30%;
+  border-radius: 0 0 0.5rem 0;
+  color: #101010;
+}
+
+/*# sourceMappingURL=projectslist.css.map */
