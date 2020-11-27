@@ -46,4 +46,17 @@
   color: #A2A2A2;
 }
 
+@media screen and (max-width: 400px) {
+  .posts article {
+    padding: 0.3rem;
+  }
+  .posts article .content .quote {
+    padding: 0 0 0 0.7rem;
+    margin: 1rem 0 !important;
+  }
+  .posts article h2 > a {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=blogposts.css.map */

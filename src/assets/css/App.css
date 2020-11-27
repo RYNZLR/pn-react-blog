@@ -79,4 +79,12 @@ html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb, #root::-webkit-scr
   border: 3px solid #101010;
 }
 
+@media screen and (max-width: 450px) {
+  html main .mark, #root main .mark {
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+    border-left: none;
+  }
+}
+
 /*# sourceMappingURL=App.css.map */

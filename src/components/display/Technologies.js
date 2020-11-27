@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import ReactRotatingText from 'react-rotating-text'
 
 import techs from '../../assets/data/skills.json';
@@ -12,12 +12,11 @@ export default function Technologies(){
     const [item, setItem] = useState(colorList.length-1)
 
     function changeColor(){
-        if(item == colorList.length-1){
+        if(item === colorList.length-1){
             setItem(0);
         }else{
             setItem(item+1);
         }
-        console.log(item);
     }
 
     return(

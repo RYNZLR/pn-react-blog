@@ -17,3 +17,14 @@
 
     }
 }
+
+@media screen and (max-width: 450px) {
+    .tech-list{
+        display: flex;
+        flex-direction: column;
+        li{
+            text-align: center;
+        }
+    
+    }
+}

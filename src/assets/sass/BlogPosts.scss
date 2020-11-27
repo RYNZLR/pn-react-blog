@@ -59,3 +59,26 @@
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    .posts{
+
+        article{
+
+            padding: 0.3rem;
+
+            .content{
+                .quote{
+                    padding: 0 0 0 0.7rem;
+                    margin: 1rem 0 !important;
+                }
+            }
+
+            h2{
+                & > a{
+                    display: none;
+                }
+            }
+        }
+    }
+}

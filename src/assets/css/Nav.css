@@ -23,4 +23,19 @@ nav ul li a:hover {
   color: white;
 }
 
+@media screen and (max-width: 670px) {
+  nav ul {
+    justify-content: space-around;
+  }
+  nav ul li {
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 415px) {
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
 /*# sourceMappingURL=Nav.css.map */

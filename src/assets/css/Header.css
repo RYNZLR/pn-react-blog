@@ -31,4 +31,13 @@ header.large .tech em {
   font-weight: bold;
 }
 
+@media screen and (max-width: 670px) {
+  header.large .tech p {
+    font-size: 2rem;
+  }
+  header.large .tech em {
+    font-size: 2.3rem;
+  }
+}
+
 /*# sourceMappingURL=Header.css.map */

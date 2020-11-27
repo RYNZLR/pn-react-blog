@@ -99,5 +99,16 @@ html,body, #root{
 
 }
 
+@media screen and (max-width: 450px) {
+    html, #root{
+        main{
+            .mark{
+                margin: 1rem 0rem;
+                padding: 1rem 0rem;
+                border-left: none;
+            }
+        }
+    }
+}
 
 

@@ -12,4 +12,14 @@
   border-color: #14C7FF;
 }
 
+@media screen and (max-width: 450px) {
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-list li {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=TechList.css.map */

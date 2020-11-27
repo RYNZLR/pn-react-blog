@@ -11,7 +11,7 @@ export default  function BlogPosts(){
         <section className="posts">
             {blogContent.getBlogPosts().map((p) => {
                 return(
-                    <article id={p.link} className="blogPost">
+                    <article key={p.link} id={p.link} className="blogPost">
                         <h2><a href={`#${p.link}`}>#</a> {p.title}</h2>
                         <div className="content" dangerouslySetInnerHTML={{ __html: p.text }}></div>
                         <em>{p.date} - Lisa Dewaele</em>
