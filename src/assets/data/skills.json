@@ -7,57 +7,52 @@
 
         {
             "name": "Laravel",
-            "color": "#14C7FF"
+            "color": "#F05340"
         },
 
         {
             "name": "Java",
-            "color": "#14C7FF"
+            "color": "#f89820"
         },
 
         {
             "name": "HTML5",
-            "color": "#14C7FF"
+            "color": "#e34c26"
         },
 
         {
             "name": "SASS",
-            "color": "#14C7FF"
+            "color": "#cc6699"
         },
 
         {
             "name": "JavaScript",
-            "color": "#14C7FF"
+            "color": "#F0DB4F"
         },
 
         {
             "name": "MySQL",
-            "color": "#14C7FF"
+            "color": "#00758F"
         },
 
         {
             "name": "SQL",
-            "color": "#14C7FF"
+            "color": "#7FBA00"
         },
 
         {
             "name": "Python",
-            "color": "#14C7FF"
+            "color": "#306998"
         },
 
         {
             "name": "ASP .NET",
-            "color": "#14C7FF"
-        },
-
-        {
-            "name": "SASS",
-            "color": "#14C7FF"
+            "color": "#1483c6"
         },
 
         {
             "name": "GraphQL",
-            "color": "#14C7FF"
+            "color": "#e535ab"
         }
     ],
 

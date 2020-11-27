@@ -34,11 +34,47 @@ body p, #root p {
 body section, body div.text, #root section, #root div.text {
   margin-bottom: 2rem;
 }
+body .mark, #root .mark {
+  border-left: 0.4rem solid #2A2A2A;
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  height: 0%;
+}
+body .img-split, #root .img-split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .img-split .text, #root .img-split .text {
+  width: 35rem;
+}
+body .img-split img, #root .img-split img {
+  width: 15rem;
+  border-radius: 0.5rem;
+}
+body .code, #root .code {
+  font-family: "Courier New", Courier, monospace;
+}
 body main, #root main {
-  max-width: 65rem;
+  max-width: 60rem;
   padding: 0.5rem 1rem;
   margin: 0 auto;
   min-height: 60vh;
+}
+body::-webkit-scrollbar, #root::-webkit-scrollbar {
+  width: 11px;
+}
+body, #root {
+  scrollbar-width: thin;
+  scrollbar-color: #A2A2A2 #101010;
+}
+body::-webkit-scrollbar-track, #root::-webkit-scrollbar-track {
+  background: #101010;
+}
+body::-webkit-scrollbar-thumb, #root::-webkit-scrollbar-thumb {
+  background-color: #2A2A2A;
+  border-radius: 6px;
+  border: 3px solid #101010;
 }
 
 /*# sourceMappingURL=App.css.map */

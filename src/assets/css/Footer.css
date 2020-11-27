@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5rem solid #14C7FF;
+  height: 10rem;
+  background-image: linear-gradient(to top, black, #101010);
+  color: #2A2A2A;
+  font-weight: bold;
+}
+footer svg {
+  width: 4rem;
+  margin-bottom: 1rem;
+  animation: App-logo-spin infinite 5s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

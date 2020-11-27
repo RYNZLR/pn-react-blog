@@ -39,15 +39,61 @@ body, #root{
         margin-bottom: text.$margin-lg;
     }
 
+    .mark{
+        border-left: 0.4rem solid colors.$bg-light;
+        padding: 1rem 2rem;
+        margin: 1rem 1rem;
+        height: 0%;
+    }
+
+    .img-split{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .text{
+            width: 35rem;
+        }
+
+        img{
+            width: 15rem;
+            border-radius: 0.5rem;
+        }
+    }
+
+    .code{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     
 
     main{
 
-        max-width: 65rem;
+        max-width: 60rem;
         padding: 0.5rem 1rem;
         margin: 0 auto;
         min-height: 60vh;
     }
 
 
+    &::-webkit-scrollbar {
+        width: 11px;
+      }
+      & {
+        scrollbar-width: thin;
+        scrollbar-color: colors.$text-dark colors.$bg;
+      }
+      &::-webkit-scrollbar-track {
+        background: colors.$bg;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: colors.$bg-light;
+        border-radius: 6px;
+        border: 3px solid colors.$bg;
+      }
+
+
 }
+
+
+

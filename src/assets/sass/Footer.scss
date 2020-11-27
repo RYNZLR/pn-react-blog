@@ -1,0 +1,37 @@
+@use 'colors';
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5rem solid colors.$accent;
+    height: 10rem;
+    background-image: linear-gradient(
+            to top,   black ,colors.$bg
+          );
+
+    color: colors.$bg-light;
+    font-weight: bold;
+
+    svg{
+        width: 4rem;
+        @keyframes App-logo-spin {
+            from {
+              transform: rotate(0deg);
+             
+            }
+            to {
+              transform: rotate(360deg);
+              
+            } 
+        }
+
+        margin-bottom: 1rem;
+    
+
+        animation: App-logo-spin infinite 5s linear;
+    }
+}
+
