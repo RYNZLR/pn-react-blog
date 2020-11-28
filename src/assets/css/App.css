@@ -57,6 +57,13 @@ html .img-split img, body .img-split img, #root .img-split img {
 html .code, body .code, #root .code {
   font-family: "Courier New", Courier, monospace;
 }
+html .tag, body .tag, #root .tag {
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem 0.5rem 0;
+  border: solid 0.2rem #14C7FF;
+  border-radius: 2rem;
+}
 html main, body main, #root main {
   max-width: 60rem;
   padding: 0.5rem 1rem;

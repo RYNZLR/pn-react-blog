@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { Date, Link, RichText } from 'prismic-reactjs'
+import { RichText } from 'prismic-reactjs'
 
-import blogContent from "../../assets/data/posts/content";
 import repo from "../../data/prismicApi";
 
 import '../../assets/css/BlogPosts.css';
@@ -35,7 +34,13 @@ export default  function BlogPosts(){
                         <div className="content">
                             <RichText render={p.data.content}/>
                         </div>
+                        <ul className="tags">
+                        {p.tags.map(t => {
+                            return (<li className="tag">{t}</li>)
+                        })}
+                        </ul>
                         <em>{p.data.date} - Lisa Dewaele</em>
+                        
                     </article>
                 )
             })}

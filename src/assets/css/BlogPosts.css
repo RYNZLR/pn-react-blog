@@ -13,6 +13,10 @@
   color: #14C7FF;
   padding-right: 1rem;
 }
+.posts article .tags {
+  display: flex;
+  margin-bottom: 1rem;
+}
 .posts article .content {
   line-height: 1.2rem;
   margin-bottom: 2rem;
