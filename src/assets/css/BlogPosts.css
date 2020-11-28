@@ -17,14 +17,20 @@
   line-height: 1.2rem;
   margin-bottom: 2rem;
 }
-.posts article .content .quote {
+.posts article .content em {
   padding: 1rem;
+  display: block;
   padding-left: 2rem;
   margin: 2rem !important;
   font-style: italic;
   border-left: #14C7FF 0.3rem solid;
 }
-.posts article .content .code {
+.posts article .content iframe {
+  margin: 1rem 0;
+  width: 100%;
+  height: 65vh;
+}
+.posts article .content pre {
   padding: 1rem 2rem;
   margin: 1.5rem 0 !important;
   border-radius: 0.3rem;
@@ -41,7 +47,7 @@
   padding-bottom: 1rem;
   font-size: 1.2rem;
 }
-.posts article em {
+.posts article > em {
   font-weight: bold;
   color: #A2A2A2;
 }
@@ -59,4 +65,4 @@
   }
 }
 
-/*# sourceMappingURL=blogposts.css.map */
+/*# sourceMappingURL=BlogPosts.css.map */
