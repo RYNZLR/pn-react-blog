@@ -5,6 +5,14 @@
             "tech": "React",
             "link": "https://corp-incorpedia.firebaseapp.com",
             "img": "incorp.png"
+        }, 
+
+        {
+            "name": "Color clock - First React app",
+            "tech": "React",
+            "link": "https://color-clock-lisad.firebaseapp.com",
+            "img": "color-clock.png"
         }
+
     ]
 }

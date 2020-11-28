@@ -1,20 +1,46 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import { RichText } from 'prismic-reactjs'
 
-import blogContent from "../../assets/data/posts/content";
+import repo from "../../data/prismicApi";
 
 import '../../assets/css/BlogPosts.css';
 
 export default  function BlogPosts(){
 
+    const [posts, setPosts] = useState([])
+
+    function processPosts(prismicPosts){
+  
+        setPosts(prismicPosts)
+        console.log(posts);
+    }
+
+
+
+    useEffect(() => {
+
+        repo.getBlogPosts(processPosts);
+
+    });
+
+
 
     return(
         <section className="posts">
-            {blogContent.getBlogPosts().map((p) => {
+            {posts.map((p) => {
                 return(
-                    <article key={p.link} id={p.link} className="blogPost">
-                        <h2><a href={`#${p.link}`}>#</a> {p.title}</h2>
-                        <div className="content" dangerouslySetInnerHTML={{ __html: p.text }}></div>
-                        <em>{p.date} - Lisa Dewaele</em>
+                    <article key={p.uid} id={p.uid} className="blogPost">
+                        <h2><a href={`#${p.uid}`}>#</a> {RichText.asText(p.data.title)}</h2>
+                        <div className="content">
+                            <RichText render={p.data.content}/>
+                        </div>
+                        <ul className="tags">
+                        {p.tags.map(t => {
+                            return (<li className="tag">{t}</li>)
+                        })}
+                        </ul>
+                        <em>{p.data.date} - Lisa Dewaele</em>
+                        
                     </article>
                 )
             })}

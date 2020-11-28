@@ -70,6 +70,14 @@ html,body, #root{
         font-family: 'Courier New', Courier, monospace;
     }
 
+    .tag{
+        text-transform: capitalize;
+        padding: 0.5rem 1rem;
+        margin: 0 1rem 0.5rem 0;
+        border: solid 0.2rem colors.$accent;
+        border-radius: 2rem;     
+    }
+
     
 
     main{
