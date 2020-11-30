@@ -159,12 +159,13 @@ html .code, body .code, #root .code {
 html .tags, body .tags, #root .tags {
   display: flex;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 html .tags .tag, body .tags .tag, #root .tags .tag {
   text-transform: capitalize;
   padding: 0.5rem 1rem;
   margin: 0 1rem 0.5rem 0;
-  border: solid 0.2rem;
+  border: solid 0.2rem #14C7FF;
   border-radius: 2rem;
 }
 html main, body main, #root main {

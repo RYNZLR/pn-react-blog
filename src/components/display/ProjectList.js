@@ -3,8 +3,6 @@ import { RichText } from 'prismic-reactjs'
 import repo from "../../data/prismicApi";
 import '../../assets/css/ProjectsList.css';
 
-import DetailView from '../partials/DetailView';
-
 export default  function ProjectList(){
 
 
@@ -18,17 +16,7 @@ export default  function ProjectList(){
 
     }
 
-    function showDetail(data){
-        setData(data)
-        setShow(true);
-    }
-
-    function hideDetail(){
-        setData(null);
-        setShow(false);
-    }
-
-
+  
 
     useEffect(() => {
 
@@ -40,11 +28,10 @@ export default  function ProjectList(){
 
     return(
 
-            <div>
-                {show ? <DetailView data={data} /> : ""}
-                <ul className="project-list">
+
+            <ul className="project-list">
                 {projects.map(p => {
-                    return <li key={RichText.asText(p.data.title)} onMouseEnter={() => {showDetail(p)}} onMouseLeave={hideDetail}>
+                    return <li key={RichText.asText(p.data.title)}>
                         <a href={p.data.link.url} target="_blank" >
                             <img src={p.data.sneak.url} alt={p.data.sneak.alt} title={p.data.sneak.alt}/>
                             <div>
@@ -55,7 +42,7 @@ export default  function ProjectList(){
                     </li>
                 })}
             </ul>
-            </div>
+
     )
 
 
