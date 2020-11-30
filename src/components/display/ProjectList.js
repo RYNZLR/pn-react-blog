@@ -33,7 +33,7 @@ export default  function ProjectList(){
                             <img src={p.data.sneak.url} alt={p.data.sneak.alt} title={p.data.sneak.alt}/>
                             <div>
                                 <p>{RichText.asText(p.data.title)}</p>
-                                <p>{p.data["main-tech"]}</p>
+                                <p className={`bg ${p.data["main-tech"].toLowerCase()}`}>{p.data["main-tech"]}</p>
                             </div>
                         </a>
                     </li>

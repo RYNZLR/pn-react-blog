@@ -13,6 +13,105 @@ html, body, #root {
 html .react-rotating-text-cursor, body .react-rotating-text-cursor, #root .react-rotating-text-cursor {
   display: none;
 }
+html .bg.react, body .bg.react, #root .bg.react {
+  background-color: #14C7FF;
+}
+html .bg.laravel, body .bg.laravel, #root .bg.laravel {
+  background-color: #e74430;
+}
+html .bg.java, body .bg.java, #root .bg.java {
+  background-color: #f89820;
+}
+html .bg.html5, body .bg.html5, #root .bg.html5 {
+  background-color: #e34c26;
+}
+html .bg.sass, body .bg.sass, #root .bg.sass {
+  background-color: #cc6699;
+}
+html .bg.javascript, body .bg.javascript, #root .bg.javascript {
+  background-color: #F0DB4F;
+}
+html .bg.mysql, body .bg.mysql, #root .bg.mysql {
+  background-color: #00758F;
+}
+html .bg.sql, body .bg.sql, #root .bg.sql {
+  background-color: #7FBA00;
+}
+html .bg.python, body .bg.python, #root .bg.python {
+  background-color: #306998;
+}
+html .bg[class="asp .net"], body .bg[class="asp .net"], #root .bg[class="asp .net"] {
+  background-color: #1483c6;
+}
+html .bg.graphql, body .bg.graphql, #root .bg.graphql {
+  background-color: #e535ab;
+}
+html .color.react, body .color.react, #root .color.react {
+  background-color: #14C7FF;
+}
+html .color.laravel, body .color.laravel, #root .color.laravel {
+  background-color: #e74430;
+}
+html .color.java, body .color.java, #root .color.java {
+  background-color: #f89820;
+}
+html .color.html5, body .color.html5, #root .color.html5 {
+  background-color: #e34c26;
+}
+html .color.sass, body .color.sass, #root .color.sass {
+  background-color: #cc6699;
+}
+html .color.javascript, body .color.javascript, #root .color.javascript {
+  background-color: #F0DB4F;
+}
+html .color.mysql, body .color.mysql, #root .color.mysql {
+  color: #00758F;
+}
+html .color.sql, body .color.sql, #root .color.sql {
+  color: #7FBA00;
+}
+html .color.python, body .color.python, #root .color.python {
+  color: #306998;
+}
+html .color[class="asp .net"], body .color[class="asp .net"], #root .color[class="asp .net"] {
+  color: #1483c6;
+}
+html .color.graphql, body .color.graphql, #root .color.graphql {
+  color: #e535ab;
+}
+html .border.react, body .border.react, #root .border.react {
+  border-color: #14C7FF;
+}
+html .border.laravel, body .border.laravel, #root .border.laravel {
+  border-color: #e74430;
+}
+html .border.java, body .border.java, #root .border.java {
+  border-color: #f89820;
+}
+html .border.html5, body .border.html5, #root .border.html5 {
+  border-color: #e34c26;
+}
+html .border.sass, body .border.sass, #root .border.sass {
+  border-color: #cc6699;
+}
+html .border.javascript, body .border.javascript, #root .border.javascript {
+  border-color: #F0DB4F;
+}
+html .border.mysql, body .border.mysql, #root .border.mysql {
+  border-color: #00758F;
+}
+html .border.sql, body .border.sql, #root .border.sql {
+  border-color: #7FBA00;
+}
+html .border.python, body .border.python, #root .border.python {
+  border-color: #306998;
+}
+html .border[class="asp .net"], body .border[class="asp .net"], #root .border[class="asp .net"] {
+  border-color: #1483c6;
+}
+html .border.graphql, body .border.graphql, #root .border.graphql {
+  border-color: #e535ab;
+}
 html a, body a, #root a {
   text-decoration: none;
 }

@@ -13,6 +13,145 @@ html,body, #root{
     .react-rotating-text-cursor {
         display: none;
       }
+
+
+    .bg{
+        &.react{
+            background-color: colors.$react;
+        }
+
+        &.laravel{
+            background-color: colors.$laravel;
+        }
+
+        &.java{
+            background-color: colors.$java;
+        }
+
+        &.html5{
+            background-color: colors.$html;
+        }
+
+        &.sass{
+            background-color: colors.$sass;
+        }
+
+        &.javascript{
+            background-color: colors.$js;
+        }
+
+        &.mysql{
+            background-color: colors.$mysql;
+        }
+
+        &.sql{
+            background-color: colors.$sql;
+        }
+
+        &.python{
+            background-color: colors.$python;
+        }
+
+        &[class="asp .net"]{
+            background-color: colors.$asp;
+        }
+
+        &.graphql{
+            background-color: colors.$graphql;
+        }
+    }
+
+    .color{
+        &.react{
+            background-color: colors.$react;
+        }
+
+        &.laravel{
+            background-color: colors.$laravel;
+        }
+
+        &.java{
+            background-color: colors.$java;
+        }
+
+        &.html5{
+            background-color: colors.$html;
+        }
+
+        &.sass{
+            background-color: colors.$sass;
+        }
+
+        &.javascript{
+            background-color: colors.$js;
+        }
+
+        &.mysql{
+            color: colors.$mysql;
+        }
+
+        &.sql{
+            color: colors.$sql;
+        }
+
+        &.python{
+            color: colors.$python;
+        }
+
+        &[class="asp .net"]{
+            color: colors.$asp;
+        }
+
+        &.graphql{
+            color: colors.$graphql;
+        }
+    }
+
+    .border{
+        &.react{
+            border-color: colors.$react;
+        }
+
+        &.laravel{
+            border-color: colors.$laravel;
+        }
+
+        &.java{
+            border-color: colors.$java;
+        }
+
+        &.html5{
+            border-color: colors.$html;
+        }
+
+        &.sass{
+            border-color: colors.$sass;
+        }
+
+        &.javascript{
+            border-color: colors.$js;
+        }
+
+        &.mysql{
+            border-color: colors.$mysql;
+        }
+
+        &.sql{
+            border-color: colors.$sql;
+        }
+
+        &.python{
+            border-color: colors.$python;
+        }
+
+        &[class="asp .net"]{
+            border-color: colors.$asp;
+        }
+
+        &.graphql{
+            border-color: colors.$graphql;
+        }
+    }
     
 
     a{
