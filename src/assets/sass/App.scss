@@ -109,47 +109,47 @@ html,body, #root{
 
     .border{
         &.react{
-            border-color: colors.$react;
+            border-color: colors.$react !important;
         }
 
         &.laravel{
-            border-color: colors.$laravel;
+            border-color: colors.$laravel !important;
         }
 
         &.java{
-            border-color: colors.$java;
+            border-color: colors.$java !important; 
         }
 
         &.html5{
-            border-color: colors.$html;
+            border-color: colors.$html !important;
         }
 
         &.sass{
-            border-color: colors.$sass;
+            border-color: colors.$sass !important;
         }
 
         &.javascript{
-            border-color: colors.$js;
+            border-color: colors.$js !important;
         }
 
         &.mysql{
-            border-color: colors.$mysql;
+            border-color: colors.$mysql !important;
         }
 
         &.sql{
-            border-color: colors.$sql;
+            border-color: colors.$sql !important;
         }
 
         &.python{
-            border-color: colors.$python;
+            border-color: colors.$python !important;
         }
 
         &[class="asp .net"]{
-            border-color: colors.$asp;
+            border-color: colors.$asp !important;
         }
 
         &.graphql{
-            border-color: colors.$graphql;
+            border-color: colors.$graphql !important;
         }
     }
     
@@ -209,14 +209,20 @@ html,body, #root{
         font-family: 'Courier New', Courier, monospace;
     }
 
-    .tag{
-        text-transform: capitalize;
-        padding: 0.5rem 1rem;
-        margin: 0 1rem 0.5rem 0;
-        border: solid 0.2rem colors.$accent;
-        border-radius: 2rem;     
-    }
+    
 
+    .tags{
+        display: flex;
+        margin-bottom: 1rem;
+
+        .tag{
+            text-transform: capitalize;
+            padding: 0.5rem 1rem;
+            margin: 0 1rem 0.5rem 0;
+            border: solid 0.2rem;
+            border-radius: 2rem;     
+        }
+    }
     
 
     main{

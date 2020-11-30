@@ -80,37 +80,37 @@ html .color.graphql, body .color.graphql, #root .color.graphql {
   color: #e535ab;
 }
 html .border.react, body .border.react, #root .border.react {
-  border-color: #14C7FF;
+  border-color: #14C7FF !important;
 }
 html .border.laravel, body .border.laravel, #root .border.laravel {
-  border-color: #e74430;
+  border-color: #e74430 !important;
 }
 html .border.java, body .border.java, #root .border.java {
-  border-color: #f89820;
+  border-color: #f89820 !important;
 }
 html .border.html5, body .border.html5, #root .border.html5 {
-  border-color: #e34c26;
+  border-color: #e34c26 !important;
 }
 html .border.sass, body .border.sass, #root .border.sass {
-  border-color: #cc6699;
+  border-color: #cc6699 !important;
 }
 html .border.javascript, body .border.javascript, #root .border.javascript {
-  border-color: #F0DB4F;
+  border-color: #F0DB4F !important;
 }
 html .border.mysql, body .border.mysql, #root .border.mysql {
-  border-color: #00758F;
+  border-color: #00758F !important;
 }
 html .border.sql, body .border.sql, #root .border.sql {
-  border-color: #7FBA00;
+  border-color: #7FBA00 !important;
 }
 html .border.python, body .border.python, #root .border.python {
-  border-color: #306998;
+  border-color: #306998 !important;
 }
 html .border[class="asp .net"], body .border[class="asp .net"], #root .border[class="asp .net"] {
-  border-color: #1483c6;
+  border-color: #1483c6 !important;
 }
 html .border.graphql, body .border.graphql, #root .border.graphql {
-  border-color: #e535ab;
+  border-color: #e535ab !important;
 }
 html a, body a, #root a {
   text-decoration: none;
@@ -156,11 +156,15 @@ html .img-split img, body .img-split img, #root .img-split img {
 html .code, body .code, #root .code {
   font-family: "Courier New", Courier, monospace;
 }
-html .tag, body .tag, #root .tag {
+html .tags, body .tags, #root .tags {
+  display: flex;
+  margin-bottom: 1rem;
+}
+html .tags .tag, body .tags .tag, #root .tags .tag {
   text-transform: capitalize;
   padding: 0.5rem 1rem;
   margin: 0 1rem 0.5rem 0;
-  border: solid 0.2rem #14C7FF;
+  border: solid 0.2rem;
   border-radius: 2rem;
 }
 html main, body main, #root main {
