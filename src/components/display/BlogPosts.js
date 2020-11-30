@@ -19,7 +19,7 @@ export default  function BlogPosts(){
 
     useEffect(() => {
 
-        repo.getBlogPosts(processPosts);
+        repo.getBlogPosts("blog-post", processPosts);
 
     });
 

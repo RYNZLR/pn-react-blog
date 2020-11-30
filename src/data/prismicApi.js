@@ -5,10 +5,10 @@ const accessToken = 'MC5YOElkcGhBQUFDRUFBOEJn.77-977-9Fe-_vUjvv70t77-9R--_ve-_ve
 
 const Client = Prismic.client(apiEndpoint, { accessToken });
 
-function getBlogPosts(cb){
+function getBlogPosts(item, cb){
     Client.query(
-        Prismic.Predicates.at('document.type', "blog-post"),
-        { orderings: '[my.blog-post.date desc]' }
+        Prismic.Predicates.at('document.type', item),
+        { orderings: `[my.${item}.date desc]` }
     ).then(res => {
         cb(res.results)
     });
