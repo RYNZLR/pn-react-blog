@@ -1,0 +1,32 @@
+ul.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+ul.contact li {
+  margin: 1rem;
+}
+ul.contact li a {
+  text-decoration: none;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  color: white;
+  display: flex;
+  padding: 1rem 2.5rem;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position-x: 0.5rem;
+  background-position-y: center;
+}
+ul.contact li a.mail {
+  background-image: url("../images/logos/mail.png");
+}
+ul.contact li a.linkedin {
+  background-image: url("../images/logos/linkedin.png");
+}
+ul.contact li a.github {
+  background-image: url("../images/logos/github.png");
+}
+
+/*# sourceMappingURL=contactlist.css.map */

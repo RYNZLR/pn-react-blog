@@ -1,23 +1,21 @@
 {
     "list": [
         {
+            "icon": "mail",
             "display": "lisa-dewaele@hotmail.be",
             "value": "lisa-dewaele@hotmail.be",
             "link": "mailto:"
         },
         {
-            "display": "(+32) 473 56 32 86",
-            "value": "+32473563286",
-            "link": "tel:"
-        },
-        {
+            "icon": "linkedin",
             "display": "lisa-dewaele-b274641b7",
             "value": "https://www.linkedin.com/in/lisa-dewaele-b274641b7/",
             "link": ""
         },
         {
-            "display": "@RYNZLR",
-            "value": "https://www.linkedin.com/in/lisa-dewaele-b274641b7/",
+            "icon": "github",
+            "display": "RYNZLR/projects",
+            "value": "https://github.com/RYNZLR",
             "link": ""
         }
     ]

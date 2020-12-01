@@ -1,0 +1,38 @@
+ul.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    li{
+        margin: 1rem;
+
+        a{
+            text-decoration: none;
+            font-family: Consolas, 'Courier New', Courier, monospace;
+            font-size: 0.8rem;
+            color: white;
+            display: flex;
+            padding: 1rem 2.5rem;
+
+            background-size: 1rem;
+            background-repeat: no-repeat;
+            background-position-x: 0.5rem;
+            background-position-y: center;
+
+
+            &.mail{
+                background-image: url("../images/logos/mail.png");
+            }
+
+            &.linkedin{
+                background-image: url("../images/logos/linkedin.png");
+            }
+
+            &.github{
+                background-image: url("../images/logos/github.png");
+            }
+            
+        }
+    }
+}
