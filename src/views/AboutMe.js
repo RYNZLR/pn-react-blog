@@ -3,6 +3,7 @@ import React from 'react';
 import displayData from '../assets/data/skills.json';
 import TechList from '../components/display/TechList'
 import SkillGraph from '../components/display/SkillsGraph'
+import Timeline from "../components/display/Education";
 
 
 import profile from '../assets/images/profile.jpg'
@@ -22,8 +23,8 @@ export default  function AboutMe(){
             </section>
 
             <section>
-                <h2>Education</h2>
-               
+                <h2>Career</h2>
+                <Timeline/>
             </section>
             
             <section>
@@ -32,8 +33,13 @@ export default  function AboutMe(){
             </section>
 
             <section>
-            <h2>Experiance</h2>
+            <h2>Experience</h2>
             <TechList/>
+            </section>
+
+            <section>
+            <h2>Contact</h2>
+ 
             </section>
         </main>
     )

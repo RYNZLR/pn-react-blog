@@ -250,6 +250,10 @@ html,body, #root{
         
     }
 
+    #timeline-main-wrapper, [data-testid]{
+        padding: 0
+    }
+
     
 
     main{

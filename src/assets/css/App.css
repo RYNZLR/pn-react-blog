@@ -188,6 +188,9 @@ html div.loading.stopped, body div.loading.stopped, #root div.loading.stopped {
   pointer-events: none;
   background: transparent;
 }
+html #timeline-main-wrapper, html [data-testid], body #timeline-main-wrapper, body [data-testid], #root #timeline-main-wrapper, #root [data-testid] {
+  padding: 0;
+}
 html main, body main, #root main {
   max-width: 60rem;
   padding: 0.5rem 1rem;

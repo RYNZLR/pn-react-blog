@@ -31,7 +31,7 @@ const data = [
 
 
   {
-    name: 'React', level: 7.5,
+    name: 'React', level: 7,
   },
   
 ];
