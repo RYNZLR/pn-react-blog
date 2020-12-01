@@ -10,9 +10,7 @@ export default  function BlogPosts(){
     const [posts, setPosts] = useState([])
 
     function processPosts(prismicPosts){
-  
         setPosts(prismicPosts)
-        console.log(posts);
     }
 
 
@@ -36,7 +34,7 @@ export default  function BlogPosts(){
                         </div>
                         <ul className="tags">
                         {p.tags.map(t => {
-                            return (<li className="tag">{t}</li>)
+                            return (<li key={t} className="tag">{t}</li>)
                         })}
                         </ul>
                         <em>{p.data.date} - Lisa Dewaele</em>

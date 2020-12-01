@@ -13,7 +13,7 @@ export default function Navigation(){
         <nav>
            <ul>
             <li>
-            <NavLink exact={true} activeClassName='is-active' to='/'>About me</NavLink>
+            <NavLink exact={true} activeClassName='is-active' to='/'>Home</NavLink>
            </li>
            <li>
            <NavLink activeClassName='is-active' to='/blog'>Blog</NavLink>

@@ -11,7 +11,7 @@ export default  function AboutMe(){
 
     return(
         <main>
-            <h1>About me</h1>
+            <h1 id="about-me">About me</h1>
             <section className="img-split">
                 <div className="mark text" dangerouslySetInnerHTML={{ __html: displayData["about-me"] }}>
 

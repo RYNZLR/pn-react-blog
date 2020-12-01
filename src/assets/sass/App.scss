@@ -10,6 +10,11 @@ html,body, #root{
     position: relative;
     scroll-behavior: smooth;
 
+    &.small{
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
     .react-rotating-text-cursor {
         display: none;
       }
@@ -224,6 +229,27 @@ html,body, #root{
             border-radius: 2rem;     
         }
     }
+
+    div.loading{
+        position: absolute;
+        -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+        background: colors.$bg;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        &.stopped{
+            pointer-events:none;
+            background: transparent;
+
+        }
+        
+    }
+
     
 
     main{
