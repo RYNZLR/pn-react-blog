@@ -4,7 +4,10 @@ footer {
   justify-content: center;
   align-items: center;
   border-bottom: 0.5rem solid #14C7FF;
-  background-image: linear-gradient(to top, black, #101010);
+  background-image: url("../images/logos/logo.png");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  background-position: right 1rem bottom 0.5rem;
 }
 
 /*# sourceMappingURL=Footer.css.map */
