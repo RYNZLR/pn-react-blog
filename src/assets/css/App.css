@@ -130,7 +130,7 @@ html h2, body h2, #root h2 {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: "bah", Arial, Helvetica, sans-serif;
-  color: #A2A2A2;
+  color: #c7c7c7;
   margin-bottom: 1.5rem;
 }
 html p, body p, #root p {
@@ -199,7 +199,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar {
 }
 html, body, #root {
   scrollbar-width: thin;
-  scrollbar-color: #A2A2A2 #101010;
+  scrollbar-color: #c7c7c7 #101010;
 }
 html::-webkit-scrollbar-track, body::-webkit-scrollbar-track, #root::-webkit-scrollbar-track {
   background: #101010;

@@ -53,6 +53,14 @@
         {
             "name": "GraphQL",
             "color": "#e535ab"
+        },
+        {
+            "name": "VueJS",
+            "color": "#41B883"
+        },
+        {
+            "name": "Prismic CMS",
+            "color": "#6970E1"
         }
     ],
 
