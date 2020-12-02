@@ -19,7 +19,7 @@ export default function Navigation(){
            <NavLink activeClassName='is-active' to='/blog'>Blog</NavLink>
            </li>
            <li>
-           <NavLink activeClassName='is-active' to='/projects'>My Projects</NavLink>
+           <NavLink activeClassName='is-active' to='/projects'>Projects</NavLink>
            </li>
         </ul>
         

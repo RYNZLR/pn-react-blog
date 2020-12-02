@@ -195,7 +195,11 @@ html main, body main, #root main {
   max-width: 60rem;
   padding: 0.5rem 1rem;
   margin: 0 auto;
+  margin-bottom: 5rem;
   min-height: 70vh;
+}
+html main > section, body main > section, #root main > section {
+  margin-bottom: 10rem;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar {
   width: 11px;

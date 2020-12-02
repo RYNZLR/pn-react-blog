@@ -9,11 +9,11 @@ footer{
     border-bottom: 0.5rem solid colors.$accent;
     background-image: url('../images/logos/logo.png');
     background-repeat: no-repeat;
-    background-size: 4rem;
-    background-position: right 1rem bottom 0.5rem;
-    // background-image: linear-gradient(
-    //  to top,   black ,colors.$bg
-    //);
+    background-size: cover;
+    //background-position: right 1rem bottom 0.5rem;
+    background-image: linear-gradient(
+      to top,   black ,colors.$bg
+    );
 
 }
 

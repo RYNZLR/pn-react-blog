@@ -188,6 +188,8 @@ html,body, #root{
         margin-bottom: text.$margin-lg;
     }
 
+
+
     .mark{
         border-left: 0.4rem solid colors.$bg-light;
         padding: 1rem 2rem;
@@ -260,7 +262,12 @@ html,body, #root{
         max-width: 60rem;
         padding: 0.5rem 1rem;;
         margin: 0 auto;
+        margin-bottom: 5rem;
         min-height: 70vh;
+
+        & > section{
+            margin-bottom: 10rem;
+        }
     }
 
 
