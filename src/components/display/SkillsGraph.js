@@ -26,13 +26,9 @@ const data = [
 
 
   {
-    name: 'HTML/CSS/JS', level: 8.5,
-  },
+    name: 'HTML/CSS/JS', level: 8,
+  }
 
-
-  {
-    name: 'React', level: 7,
-  },
   
 ];
 
@@ -50,7 +46,7 @@ export default class Example extends PureComponent {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis domain={[0,10]} />
-        <Tooltip cursor={{fill: 'transparent'}}   />
+        <Tooltip cursor={{fill: 'transparent'}} contentStyle={{ backgroundColor: "#101010", border: "0.1rem dashed grey", width: "7rem" }} />
         <Legend />
         <Bar dataKey="level" fill="#14C7FF" fillOpacity="0.6" />
       </BarChart>

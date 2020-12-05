@@ -270,6 +270,9 @@ html,body, #root{
         }
     }
 
+    .recharts-default-tooltip{
+        background-color: black;
+    }
 
     &::-webkit-scrollbar {
         width: 11px;

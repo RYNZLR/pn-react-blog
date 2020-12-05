@@ -48,6 +48,9 @@
   padding-bottom: 1rem;
   font-size: 1.2rem;
 }
+.posts article .content img {
+  width: 100%;
+}
 .posts article > em {
   font-weight: bold;
   color: #c7c7c7;

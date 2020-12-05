@@ -201,6 +201,9 @@ html main, body main, #root main {
 html main > section, body main > section, #root main > section {
   margin-bottom: 10rem;
 }
+html .recharts-default-tooltip, body .recharts-default-tooltip, #root .recharts-default-tooltip {
+  background-color: black;
+}
 html::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar {
   width: 11px;
 }
