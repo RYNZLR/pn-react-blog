@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
+import {
+    useLocation
+} from "react-router-dom";
+
+
 export default function FilterBlog(props){
 
-    const [tags, setTags] = useState([]);
+    const items = useQuery().get("search").split(',');
+
+    const [tags, setTags] = useState(items);
     const [newTag, setNewTag] = useState("");
 
     const filterCb = props.filterCb;
@@ -32,6 +39,10 @@ export default function FilterBlog(props){
     function updatePost(newList){
         setTags(newList);
 
+    }
+
+    function useQuery() {
+        return new URLSearchParams(useLocation().search);
     }
 
     return(

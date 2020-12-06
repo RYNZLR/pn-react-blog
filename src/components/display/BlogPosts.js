@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { RichText } from 'prismic-reactjs'
+import { RichText } from 'prismic-reactjs';
 
 import Filter from '../filters/FilterBlog';
 
@@ -13,11 +13,9 @@ export default  function BlogPosts(){
     const [posts, setPosts] = useState([]);
     const [tags, setTags] = useState([]);
 
-    function processPosts(prismicPosts){
-        setPosts(prismicPosts)
-    }
-
     useEffect(() => {
+
+
         if(tags.length === 0){
             repo.getBlogPosts("blog-post", processPosts);
         }else{
@@ -25,6 +23,10 @@ export default  function BlogPosts(){
         }
     
     }, [tags]);
+
+    function processPosts(prismicPosts){
+        setPosts(prismicPosts)
+    }
 
     function filterByTags(tags){
         setTags(tags);
