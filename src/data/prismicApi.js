@@ -13,10 +13,22 @@ function getBlogPosts(item, cb){
         cb(res.results)
     });
 
-      
     
+}
+
+function getPostsByTags(item, tags, cb){
+    Client.query(
+        [
+            Prismic.Predicates.at('document.type', item),
+            Prismic.Predicates.any('document.tags', tags)
+        ],
+        { orderings: `[my.${item}.date desc]` }
+    ).then(res => {
+        cb(res.results)
+    });
 }
 
 export default{
     getBlogPosts,
+    getPostsByTags
 }

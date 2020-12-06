@@ -1,29 +1,40 @@
 import React, {useState, useEffect} from 'react';
 import { RichText } from 'prismic-reactjs'
 
+import Filter from '../filters/FilterBlog';
+
 import repo from "../../data/prismicApi";
 
 import '../../assets/css/BlogPosts.css';
 
+
 export default  function BlogPosts(){
 
-    const [posts, setPosts] = useState([])
+    const [posts, setPosts] = useState([]);
+    const [tags, setTags] = useState([]);
 
     function processPosts(prismicPosts){
         setPosts(prismicPosts)
     }
 
-
-
     useEffect(() => {
+        if(tags.length === 0){
+            repo.getBlogPosts("blog-post", processPosts);
+        }else{
+            repo.getPostsByTags("blog-post", tags, processPosts);
+        }
+    
+    }, [tags]);
 
-        repo.getBlogPosts("blog-post", processPosts);
-
-    });
-
-
+    function filterByTags(tags){
+        setTags(tags);
+    }
 
     return(
+        <div>
+
+        <Filter filterCb={filterByTags}/>
+
         <section className="posts">
             {posts.map((p) => {
                 return(
@@ -43,6 +54,7 @@ export default  function BlogPosts(){
                 )
             })}
         </section>
+        </div>
     )
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPosts from '../components/display/BlogPosts'
+import BlogPosts from '../components/display/BlogPosts';
 
 export default  function Blog(){
 
