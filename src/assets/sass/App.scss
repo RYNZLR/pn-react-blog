@@ -232,6 +232,13 @@ html,body, #root{
         }
     }
 
+    .tags.edit{
+        .tag:hover{
+            border: solid 0.2rem colors.$red;
+            cursor: pointer;
+        }
+    }
+
     div.loading{
         position: absolute;
         -webkit-transition: background 0.5s linear;

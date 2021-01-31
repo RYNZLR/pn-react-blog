@@ -1,3 +1,22 @@
+.search {
+  margin-bottom: 2rem;
+}
+.search input[type=text] {
+  all: unset;
+  background-color: #2A2A2A;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  max-width: 15rem;
+}
+.search input[type=submit] {
+  all: unset;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid #14C7FF;
+  border-radius: 0.3rem;
+}
+
 .posts article {
   min-height: 100vh;
   margin-bottom: 3rem;

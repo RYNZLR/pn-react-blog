@@ -1,14 +1,18 @@
 .tech-list li {
-  display: inline-block;
-  padding: 1rem 2.5rem;
-  border: solid 0.2rem #2A2A2A;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
+  display: inline-block;
+}
+.tech-list li a {
+  display: block;
+  padding: 1rem 2.5rem;
+  border: solid 0.2rem #2A2A2A;
+  color: white;
   border-radius: 0.5rem;
-  cursor: default;
+  cursor: pointer;
   font-style: italic;
 }
-.tech-list li:hover {
+.tech-list li a:hover {
   border-color: #14C7FF;
 }
 

@@ -172,6 +172,10 @@ html .tags .tag, body .tags .tag, #root .tags .tag {
   border: solid 0.2rem #14C7FF;
   border-radius: 2rem;
 }
+html .tags.edit .tag:hover, body .tags.edit .tag:hover, #root .tags.edit .tag:hover {
+  border: solid 0.2rem #ff4040;
+  cursor: pointer;
+}
 html div.loading, body div.loading, #root div.loading {
   position: absolute;
   -webkit-transition: background 0.5s linear;

@@ -7,7 +7,8 @@ import {
 
 export default function FilterBlog(props){
 
-    const items = useQuery().get("search").split(',');
+    const param = useQuery().get("search");
+    const items = param ? param.split(',') : [];
 
     const [tags, setTags] = useState(items);
     const [newTag, setNewTag] = useState("");
@@ -47,11 +48,11 @@ export default function FilterBlog(props){
 
     return(
         <div>
-            <form onSubmit={handleSubmit}>
+            <form className="search" onSubmit={handleSubmit}>
                 <input type="text" name="tag" id="tag" ref={(n) => setNewTag(n)} />
                 <input type="submit" value="Add tag"/>
             </form>
-            <ul className="tags">
+            <ul className="tags edit">
                 {tags.map((t, index) => {
                     return (
                         <li key={index} className="tag action" onClick={() => {removeTag(index)}}>

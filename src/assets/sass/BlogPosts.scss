@@ -1,5 +1,28 @@
 @use 'colors';
 
+.search{
+    input[type=text]{
+        all:unset;
+        background-color: colors.$bg-light;
+        margin-right: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        width: 100%;
+        max-width: 15rem;
+    }
+
+    input[type=submit]{
+        all:unset;
+        padding: 0.5rem 1rem;
+        border: 0.2rem solid colors.$accent;
+        border-radius: 0.3rem;
+
+    }
+
+    margin-bottom: 2rem;
+}
+
+
 .posts{
 
     article{

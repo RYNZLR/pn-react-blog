@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/TechList.scss","../sass/_colors.scss"],"names":[],"mappings":"AAGI;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,cCVH;;;ADgBT;EACI;IACI;IACA;;EACA;IACI","file":"TechList.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/TechList.scss","../sass/_colors.scss"],"names":[],"mappings":"AAGI;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EAEA;EACA;EACA;;AAEA;EACI,cCfP;;;ADwBT;EACI;IACI;IACA;;EACA;IACI","file":"TechList.css"}
