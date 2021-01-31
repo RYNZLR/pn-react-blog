@@ -4,8 +4,6 @@ import displayData from '../assets/data/skills.json';
 import TechList from '../components/display/TechList'
 import SkillGraph from '../components/display/SkillsGraph'
 import Timeline from "../components/display/Education";
-import Contact from "../components/display/ConstactList";
-
 
 import profile from '../assets/images/profile.jpg'
 

@@ -1,0 +1,19 @@
+.git-list {
+  margin-bottom: 2rem;
+}
+.git-list li {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.git-list li a {
+  display: inline-block;
+  color: white;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  padding: 1.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #222222;
+  border-right: solid 0.2rem #14C7FF;
+}
+
+/*# sourceMappingURL=gitprojectlist.css.map */

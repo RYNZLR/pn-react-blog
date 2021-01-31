@@ -1,0 +1,20 @@
+@use 'colors';
+
+.git-list{
+    margin-bottom: 2rem;
+    li{
+
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        a{
+            display: inline-block;
+            color: white;
+            font-family: Consolas, 'Courier New', Courier, monospace;
+            padding: 1.5rem 1rem;
+            border-radius: 0.2rem;
+            background-color: rgb(34, 34, 34);
+            border-right: solid 0.2rem colors.$accent;
+        }
+    }
+}
