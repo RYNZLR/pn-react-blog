@@ -44,7 +44,7 @@
         }
 
         .content{
-            line-height: 1.2rem;
+            line-height: 1.3rem;
             margin-bottom: 2rem;
 
             em {
@@ -74,7 +74,11 @@
 
             a{
                 text-decoration: underline !important;
-                color: colors.$accent
+                color: colors.$accent;
+
+                &:visited{
+                    color: hotpink;
+                }
             }
 
             h3{
@@ -83,6 +87,14 @@
                 font-weight: bold;
                 padding-bottom: 1rem;
                 font-size: 1.2rem;
+            }
+
+            h4{
+                color: rgb(170, 170, 170);
+                font-size: 1.1rem;
+                font-weight: bold;
+                padding-bottom: 0.5rem;
+                margin-top: 1.5rem;
             }
 
             img{

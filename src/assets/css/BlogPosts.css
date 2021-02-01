@@ -33,7 +33,7 @@
   padding-right: 1rem;
 }
 .posts article .content {
-  line-height: 1.2rem;
+  line-height: 1.3rem;
   margin-bottom: 2rem;
 }
 .posts article .content em {
@@ -61,12 +61,22 @@
   text-decoration: underline !important;
   color: #14C7FF;
 }
+.posts article .content a:visited {
+  color: hotpink;
+}
 .posts article .content h3 {
   color: #14C7FF;
   margin-top: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
   font-size: 1.2rem;
+}
+.posts article .content h4 {
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
 }
 .posts article .content img {
   width: 100%;
