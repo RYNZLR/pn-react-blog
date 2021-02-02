@@ -34,6 +34,8 @@
         background-color: colors.$post-bg;
         border-radius: 0.3rem;
 
+        
+
         h2{
             color: white !important;
 
@@ -106,6 +108,7 @@
                 list-style-type: disc;
                 list-style-position: inside;
                 font-family: 'Consolas', 'Courier New', Courier, monospace;
+                padding-top: 1rem;
 
                 li{
                     margin-bottom: 0.5rem;

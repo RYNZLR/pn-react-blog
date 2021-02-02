@@ -86,6 +86,7 @@
   list-style-type: disc;
   list-style-position: inside;
   font-family: "Consolas", "Courier New", Courier, monospace;
+  padding-top: 1rem;
 }
 .posts article .content ul li {
   margin-bottom: 0.5rem;
