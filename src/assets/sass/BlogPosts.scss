@@ -58,6 +58,32 @@
                 border-left: colors.$accent 0.3rem solid;
             }
 
+            [data-type="object"] {
+                margin: 2rem 0;
+
+                & > a{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    text-decoration: none !important;
+                    h1{
+                        font-size: 1rem !important;
+                        margin-right: auto !important;
+                        font-family: 'Consolas', 'Courier New', Courier, monospace !important;
+    
+                    }
+    
+                    img{
+                        width: 4rem;
+                        height: 4rem;
+                        margin-right: 1rem;
+                    }
+    
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
             iframe {
                 margin: 1rem 0;
                 width: 100%;

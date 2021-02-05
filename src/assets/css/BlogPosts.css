@@ -44,6 +44,27 @@
   font-style: italic;
   border-left: #14C7FF 0.3rem solid;
 }
+.posts article .content [data-type=object] {
+  margin: 2rem 0;
+}
+.posts article .content [data-type=object] > a {
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none !important;
+}
+.posts article .content [data-type=object] > a h1 {
+  font-size: 1rem !important;
+  margin-right: auto !important;
+  font-family: "Consolas", "Courier New", Courier, monospace !important;
+}
+.posts article .content [data-type=object] > a img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+.posts article .content [data-type=object] > a p {
+  display: none;
+}
 .posts article .content iframe {
   margin: 1rem 0;
   width: 100%;
