@@ -33,8 +33,13 @@ export default function FilterBlog(props){
 
     function handleSubmit(e){
         e.preventDefault();
-        addTag(newTag.value.toLowerCase());
-        newTag.value = "";
+        const newTagValue = newTag.value.toLowerCase().trim();
+
+        if(newTagValue !== ""){
+            addTag(newTagValue);
+            newTag.value = "";
+        }
+       
     }
 
     function updatePost(newList){
@@ -47,10 +52,11 @@ export default function FilterBlog(props){
     }
 
     return(
-        <div>
+        <div className="filter">
+            <strong>Filter op tags</strong>
             <form className="search" onSubmit={handleSubmit}>
-                <input type="text" name="tag" id="tag" ref={(n) => setNewTag(n)} />
-                <input type="submit" value="Add tag"/>
+                <input type="text" name="tag" id="tag" ref={(n) => setNewTag(n)} required />
+                <input type="submit" value="Voeg tag toe"/>
             </form>
             <ul className="tags edit">
                 {tags.map((t, index) => {

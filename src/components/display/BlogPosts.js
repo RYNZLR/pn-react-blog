@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import { RichText } from 'prismic-reactjs';
 
 import Filter from '../filters/FilterBlog';
+import PostNav from '../display/PostNav';
+import Options from '../partials/Options'
 
 import repo from "../../data/prismicApi";
 
@@ -55,8 +57,12 @@ export default  function BlogPosts(){
 
     return(
         <div>
-
-        <Filter filterCb={filterByTags}/>
+        <Options>
+            <PostNav posts={posts}/>
+            <Filter filterCb={filterByTags}/>
+          
+        </Options>
+       
 
         <section className="posts">
             {posts.map((p) => {

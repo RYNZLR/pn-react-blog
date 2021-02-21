@@ -17,6 +17,51 @@
   border-radius: 0.3rem;
 }
 
+.post-navigation {
+  margin-bottom: 2rem;
+}
+.post-navigation ul {
+  padding-left: 1.5rem;
+}
+.post-navigation ul li {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.post-navigation ul li a {
+  color: white;
+}
+.post-navigation ul li a::before {
+  content: "#";
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  color: #14C7FF;
+  font-weight: bold;
+  position: absolute;
+  display: inline-block;
+  left: -1.5rem;
+  width: 1.5em;
+}
+
+.optionsMenu {
+  font-family: "Consolas", "Courier New", Courier, monospace !important;
+}
+.optionsMenu .options-toggle {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  border: 0.2rem #2A2A2A solid;
+  border-radius: 0.5rem;
+}
+.optionsMenu strong {
+  display: block;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 1rem !important;
+}
+
 .posts article {
   min-height: 100vh;
   margin-bottom: 3rem;
