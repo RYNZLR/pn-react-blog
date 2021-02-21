@@ -30,6 +30,7 @@ export default  function BlogPosts(){
 
     function filterByTags(tags){
         setTags(tags);
+        
     }
 
 

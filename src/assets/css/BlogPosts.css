@@ -73,10 +73,24 @@
 }
 .posts article .content pre {
   padding: 1rem 2rem;
+  padding-top: 1.25rem;
   margin: 1.5rem 0 !important;
   border-radius: 0.3rem;
   font-family: "Consolar", "Courier New", Courier, monospace;
   border: 0.2rem solid #2A2A2A;
+  overflow-x: scroll;
+}
+.posts article .content pre::-webkit-scrollbar {
+  width: auto;
+  height: 0.25rem;
+}
+.posts article .content pre::-webkit-scrollbar-track {
+  background: transparent;
+}
+.posts article .content pre::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 6px 6px 0 0;
+  border: 3px solid #14C7FF;
 }
 .posts article .content a {
   text-decoration: underline !important;

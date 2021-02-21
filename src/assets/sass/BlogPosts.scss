@@ -94,10 +94,29 @@
 
             pre {
                 padding: 1rem 2rem;
+                padding-top: (1rem + 0.25rem);
                 margin: 1.5rem 0 !important;
                 border-radius: 0.3rem;
                 font-family: 'Consolar', 'Courier New', Courier, monospace;
                 border: 0.2rem  solid colors.$bg-light;
+
+                overflow-x: scroll;
+
+                &::-webkit-scrollbar {
+                    width: auto;
+                    height: 0.25rem;
+                }
+
+                  &::-webkit-scrollbar-track {
+                    background: transparent;
+                  }
+                  &::-webkit-scrollbar-thumb {
+                    background-color: red;
+                    border-radius: 6px 6px 0 0;
+                    border: 3px solid colors.$accent;
+                  }
+
+                
             }
 
             a{
