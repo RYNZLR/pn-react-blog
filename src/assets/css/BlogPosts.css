@@ -33,8 +33,15 @@
   padding-right: 1rem;
 }
 .posts article .content {
-  line-height: 1.3rem;
+  line-height: 1.6rem;
   margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.posts article .content p + *:not(ul) {
+  margin-bottom: 2rem !important;
+}
+.posts article .content p + *:not(ul) strong {
+  font-weight: bolder;
 }
 .posts article .content em {
   padding: 1rem;
@@ -96,19 +103,16 @@
   text-decoration: underline !important;
   color: #14C7FF;
 }
-.posts article .content a:visited {
-  color: hotpink;
-}
 .posts article .content h3 {
   color: #14C7FF;
   margin-top: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 .posts article .content h4 {
-  color: #aaaaaa;
-  font-size: 1.1rem;
+  color: hotpink;
+  font-size: 1.4rem;
   font-weight: bold;
   padding-bottom: 0.5rem;
   margin-top: 1.5rem;
@@ -118,13 +122,27 @@
   border-radius: 0.3rem;
 }
 .posts article .content ul {
-  list-style-type: disc;
-  list-style-position: inside;
-  font-family: "Consolas", "Courier New", Courier, monospace;
+  list-style-type: none;
   padding-top: 1rem;
+  padding-left: 1.5rem;
 }
 .posts article .content ul li {
   margin-bottom: 0.5rem;
+  position: relative;
+}
+.posts article .content ul li::before {
+  content: ">";
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  color: hotpink;
+  font-weight: bold;
+  position: absolute;
+  left: -1.5rem;
+  display: inline-block;
+  width: 1.5em;
+}
+.posts article .content ul li strong {
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 .posts article > em {
   font-weight: bold;
