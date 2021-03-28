@@ -82,11 +82,21 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
+.posts article .content h6 {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  color: #b9b9b9;
+  font-family: "Consolas", "Courier New", Courier, monospace;
+}
 .posts article .content p + *:not(ul) {
   margin-bottom: 2rem !important;
 }
 .posts article .content p + *:not(ul) strong {
   font-weight: bolder;
+}
+.posts article .content p.block-img {
+  margin-bottom: 0.5rem !important;
 }
 .posts article .content em {
   padding: 1rem;
