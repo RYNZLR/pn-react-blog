@@ -9,6 +9,7 @@
         all:unset;
         background-color: colors.$bg-light;
         margin-right: 1rem;
+        margin-bottom: 0.5rem;
         padding: 0.5rem 1rem;
         border-radius: 0.3rem;
         width: 100%;
@@ -257,6 +258,18 @@
         & > em{
             font-weight: bold;
             color: colors.$text-dark
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+    p.block-img{
+        transition: transform .2s; /* Animation */
+
+        &:hover{
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5); 
         }
     }
 }

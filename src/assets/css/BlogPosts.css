@@ -5,6 +5,7 @@
   all: unset;
   background-color: #2A2A2A;
   margin-right: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   width: 100%;
@@ -204,6 +205,19 @@
   color: #c7c7c7;
 }
 
+@media screen and (min-width: 1400px) {
+  p.block-img {
+    transition: transform 0.2s;
+    /* Animation */
+  }
+  p.block-img:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+  }
+}
 @media screen and (max-width: 400px) {
   .posts article {
     padding: 0.3rem;

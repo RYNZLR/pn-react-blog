@@ -4,7 +4,7 @@ import { Chrono } from "react-chrono";
 export default function Timeline(){
   const items = [
     {
-        title: "2018 - now",
+        title: "2018 - nu",
         cardTitle: "Professionele Bachelor Toegepaste informatica - Software Engineering",
         cardSubtitle:"Howest (Brugge)",
       },

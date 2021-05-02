@@ -22,7 +22,7 @@ export default  function AboutMe(){
             </section>
 
             <section>
-                <h2>Career</h2>
+                <h2>Carrière</h2>
                 <Timeline/>
             </section>
             
@@ -32,7 +32,7 @@ export default  function AboutMe(){
             </section>
 
             <section>
-            <h2>Experience</h2>
+            <h2>Ervaring</h2>
             <TechList/>
             </section>
 

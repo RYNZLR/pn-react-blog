@@ -7,12 +7,12 @@ export default  function Projects(){
 
     return(
         <main>
-            <h1>Projects</h1>
+            <h1>Projecten</h1>
 
-            <h2>School projects</h2>
+            <h2>Schoolprojecten</h2>
             <ProjectList/>
 
-            <h2>Public GitHub projects</h2>
+            <h2>Public GitHub projecten</h2>
             <GitList/>
             
            
